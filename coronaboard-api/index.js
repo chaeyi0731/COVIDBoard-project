@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const example = require('someModule'); //외부모듈 불러오기 
 
 const app = express();
 
